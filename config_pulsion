@@ -1,0 +1,17 @@
+#!/bin/bash
+
+function command_hello {
+
+	function help {
+
+		echo -e "Example of pulsion command"
+
+	}
+
+	function process {
+
+		verbose 1 "Hello world !"
+
+	}
+
+}
